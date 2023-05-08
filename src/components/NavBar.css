@@ -1,0 +1,32 @@
+.logo {
+    width: 250px;
+    height:68px;
+}
+
+nav {
+    display: flex;
+    padding: 25px 30px 25px 40px;
+}
+
+img {
+    margin-right: 70px;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin-left: 10px;
+}
+
+li {
+    display: inline;
+    align-self: center;
+    margin: 0 35px;
+}
+
+li > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
