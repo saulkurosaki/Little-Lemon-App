@@ -1,3 +1,4 @@
+import Button from './Button';
 import './Main.css';
 import baguettes from '../icons_assets/restauranfood.jpg';
 
@@ -11,6 +12,7 @@ const Main = () => {
                             <h1>Little Lemon</h1>
                             <h2>Chicago</h2>
                             <p className='reserve-text'>We are a family owned<br/>Mediterranean restaurant,<br/>focused on traditional<br/>recipes served with a modern<br/>twist</p>
+                            <Button/>
                         </div>
                         <img id='promo-food-img' src={baguettes} alt='baguettes'/>
                     </article>
