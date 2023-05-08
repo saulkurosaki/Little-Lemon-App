@@ -3,9 +3,14 @@
     src: url("../../fonts/MarkaziText-VariableFont_wght.ttf");
 }
 
+@font-face {
+    font-family: "Karla";
+    src: url("../../fonts/Karla-VariableFont_wght.ttf");
+}
+
 .reserve {
     background-color: #495e57;
-    height: 400px;
+    height: 440px;
 }
 
 .reserve article {
@@ -20,20 +25,33 @@
     border-radius: 20px;
     display: inline-block;
     position: relative;
-    left: 625px;
-    bottom: 290px;
+    left: 680px;
+    bottom: 300px;
     box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.5);
 }
 
-div > h1 {
+.reserve h1 {
     color: #f9d108c2;
-    font-size: 95px;
+    font-size: 100px;
     font-family: "Markazi text", sans-serif;
     font-weight: 500;
     margin: 0;
+    padding-bottom: 0;
+}
+
+.reserve h2 {
+    color: white;
+    font-size: 50px;
+    font-family: "Markazi Text", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+    bottom: 30px;
 }
 
 .reserve-text {
     color: white;
     font-size: 25px;
+    margin: 0;
+    font-family: "Karla", sans-serif;
 }
