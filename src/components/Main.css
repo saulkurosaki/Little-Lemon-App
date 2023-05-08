@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Markazi Text";
+    src: url("../../fonts/MarkaziText-VariableFont_wght.ttf");
+}
+
+.reserve {
+    background-color: #495e57;
+    height: 400px;
+}
+
+.reserve article {
+    margin: 0 200px;
+}
+
+
+
+#promo-food-img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    left: 625px;
+    bottom: 290px;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+div > h1 {
+    color: #f9d108c2;
+    font-size: 95px;
+    font-family: "Markazi text", sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.reserve-text {
+    color: white;
+    font-size: 25px;
+}

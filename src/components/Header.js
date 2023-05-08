@@ -1,9 +1,9 @@
+import NavBar from "./NavBar";
+
 const Header = () => {
     return(
         <>
-            <header>
-                <h1>Soy un Header</h1>
-            </header>
+            <NavBar></NavBar>
         </>
     );
 };
