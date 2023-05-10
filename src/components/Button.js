@@ -1,8 +1,8 @@
 import './Button.css';
 
-const Button = () => {
+const Button = (props) => {
     return(
-        <button>Reserve a Table</button>
+        <button>{props.children}</button>
     );
 };
 

@@ -17,8 +17,6 @@
     margin: 0 200px;
 }
 
-
-
 #promo-food-img {
     width: 450px;
     height: 450px;
@@ -54,4 +52,35 @@
     font-size: 25px;
     margin: 0;
     font-family: "Karla", sans-serif;
+}
+
+.specials {
+    margin: 0 200px;
+}
+
+.banner {
+    margin-top: 100px;
+    align-content: center;
+}
+
+.banner Button {
+    font-size: 30px;
+    padding: 18px 25px;
+    margin-left: 359px;
+}
+
+.banner p {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.specials div > p {
+    display: inline;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
 }

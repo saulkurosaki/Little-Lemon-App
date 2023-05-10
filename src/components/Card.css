@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Markazi Text";
+    src: url("../../fonts/MarkaziText-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url("../../fonts/Karla-VariableFont_wght.ttf");
+}
+
+.card {
+    display: inline-block;
+    background-color: #efefef;
+    border-radius: 15px;
+    width: 350px;
+    height: 810px;
+}
+
+#image img {
+    width: 350px;
+    height: 300px;
+    margin: 0;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.description {
+    padding: 25px 35px;
+}
+
+.description header {
+    font-family: 'Markazi Text', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 31px;
+    margin-bottom: 30px;
+}
+
+.description header > h1, p {
+    margin: 0 0 25px;
+}
+
+.description header > p {
+    color: #ee9972;
+    font-weight: 700;
+}
+
+.description main {
+    color: #787878;
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    height: 290px;
+}
+
+.description footer img {
+    width: 30px;
+    height: 30px;
+}
+
+.description footer h1 {
+    display: inline;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.description footer img {
+    margin: 0;
+    position: relative;
+    top: 10px;
+}
