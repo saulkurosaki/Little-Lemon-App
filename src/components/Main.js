@@ -1,5 +1,6 @@
 import ReserveSection from './ReserveSection';
 import SpecialsSection from './SpecialsSection';
+import TestimonialsSection from './TestimonialsSection';
 
 const Main = () => {
     return(
@@ -7,16 +8,7 @@ const Main = () => {
             <main>
                 <ReserveSection/>
                 <SpecialsSection/>
-                <section className='testimonials'>
-                    <article>
-                        <div>
-                            <h1></h1>
-                        </div>
-                        <div>
-
-                        </div>
-                    </article>
-                </section>
+                <TestimonialsSection/>
             </main>
         </>
     );

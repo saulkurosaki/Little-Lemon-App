@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Markazi Text";
+    src: url("../../fonts/MarkaziText-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url("../../fonts/Karla-VariableFont_wght.ttf");
+}
+
+.box {
+    background-color: #fff;
+    width: 200px;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.box header > h1 {
+    display: inline-block;
+    margin: 0 0 20px;
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 32px;
+}
+
+.box header > img {
+    position: relative;
+    top: 4px;
+    left: 10px;
+    width: 100px;
+    height: 20px;
+    margin: 0;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user p {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.user img {
+    margin: 0 10px 0 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.text p {
+    margin: 18px 0 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
