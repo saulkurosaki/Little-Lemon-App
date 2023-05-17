@@ -9,12 +9,17 @@
 }
 
 .reserve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #495e57;
     height: 430px;
 }
 
 .reserve article {
     margin: 0 200px;
+    width: 1120px;
+    height: 430px;
 }
 
 #promo-food-img {

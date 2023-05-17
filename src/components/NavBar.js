@@ -4,7 +4,7 @@ import logo from '../icons_assets/Logo.png';
 const NavBar = () => {
     return(
         <>
-            <nav className='navigation-bar'>
+            <nav>
                 <img className="logo" src={logo} alt="Little Lemon Logo"/>
                 <ul>
                     <li><a href='#'>Home</a></li>

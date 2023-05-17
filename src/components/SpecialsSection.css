@@ -1,5 +1,12 @@
 .specials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 200px;
+}
+
+.specials article {
+    width: 1120px;
 }
 
 .banner {
