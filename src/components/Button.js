@@ -1,8 +1,11 @@
 import './Button.css';
+import { Link } from 'react-router-dom';
 
 const Button = (props) => {
     return(
-        <button>{props.children}</button>
+        <button>
+            <Link id='link' to={props.path}>{props.children}</Link>
+        </button>
     );
 };
 

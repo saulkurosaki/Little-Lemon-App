@@ -3,10 +3,16 @@
     height: 81px;
 }
 
+.Nav-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+}
+
 nav {
     display: flex;
     justify-content: center;
-    padding: 25px 30px 25px 40px;
 }
 
 img {

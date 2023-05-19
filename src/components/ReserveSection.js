@@ -10,7 +10,7 @@ const ReserveSection = () => {
                     <h1>Little Lemon</h1>
                     <h2>Chicago</h2>
                     <p className='reserve-text'>We are a family owned<br/>Mediterranean restaurant,<br/>focused on traditional<br/>recipes served with a modern<br/>twist</p>
-                    <Button>Reserve a Table</Button>
+                    <Button path='/reservation-page'>Reserve a Table</Button>
                 </div>
                 <img id='promo-food-img' src={baguettes} alt='baguettes'/>
             </article>
