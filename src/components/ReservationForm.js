@@ -36,7 +36,7 @@ const ReservationForm = () => {
         initialValues:{
             date:'',
             time:'',
-            guests:'',
+            guests:1,
             occasion:'',
         },
         validate,

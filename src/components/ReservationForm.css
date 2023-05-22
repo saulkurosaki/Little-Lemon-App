@@ -48,5 +48,7 @@ form input, form select {
 }
 
 #date, #time, #guests, #occasion {
-    font-size: 19px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 15px;
 }
