@@ -54,11 +54,18 @@ const ReservationForm = () => {
                 />
                 <br/>
                 <label htmlFor="time">Time</label>
-                <input 
-                    type="time" 
-                    id="time" 
+                <select
+                    id="time"
                     {...formik.getFieldProps('time')}
-                />
+                >
+                    <option value=''>-- Select --</option>
+                    <option value='17:00'>17:00hrs</option>
+                    <option value='18:00'>18:00hrs</option>
+                    <option value='19:00'>19:00hrs</option>
+                    <option value='20:00'>20:00hrs</option>
+                    <option value='21:00'>21:00hrs</option>
+                    <option value='22:00'>22:00hrs</option>
+                </select>
                 <br/>
                 <label htmlFor="guests">Number of Guests</label>
                 <input 
@@ -74,7 +81,7 @@ const ReservationForm = () => {
                     id="occasion"
                     {...formik.getFieldProps('occasion')}
                 >
-                    <option value=''>-- Seleccione --</option>
+                    <option value=''>-- Select --</option>
                     <option value='birthday'>Birthday</option>
                     <option value='anniversary'>Anniversary</option>
                 </select>
