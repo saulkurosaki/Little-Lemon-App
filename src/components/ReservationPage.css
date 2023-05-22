@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Markazi Text";
+    src: url("../../fonts/MarkaziText-VariableFont_wght.ttf");
+}
+
+.Reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #495e57;
+    height: 620px;
+}
+
+.Form-Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 520px;
+    width: 1420px;
+    border-radius: 25px;
+    background-image: url('../icons_assets/Background\ Leaves.jpeg');
+    background-size: cover;
+}
+
+.greetings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.greetings p {
+    display: inline-block;
+    margin: 0;
+    color: #f9d108c2;
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 95px;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}

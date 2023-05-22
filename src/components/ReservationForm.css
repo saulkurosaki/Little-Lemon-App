@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Karla";
+    src: url("../../fonts/Karla-VariableFont_wght.ttf");
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    position: relative;
+    top: 18px;
+}
+
+form label {
+    color: #f9d108e4;
+    font-family: 'Karla', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+form input, form select {
+    height: 40px;
+    border-radius: 10px;
+    border-style: outset;
+}
+
+.Errors {
+    width: 300px;
+    height: 55px;
+    position: absolute;
+    right: 90px;
+}
+
+.Box-1 {
+    bottom: 472px;
+}
+
+.Box-2 {
+    bottom: 357px;
+}
+
+.Box-3 {
+    bottom: 242px;
+}
+
+.Box-4 {
+    bottom: 130px;
+}
+
+#date, #time, #guests, #occasion {
+    font-size: 18px;
+}
